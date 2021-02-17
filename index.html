@@ -13,10 +13,10 @@
             var alerts = $('#alerts');
             $('form').submit(function (e) {
                 e.preventDefault();
-                button.stop(true).slideUp();
-
+                
                 var albumId = $('input').val();
                 var button = $('button');
+                button.stop(true).slideUp();
 
                 albumId = albumId.trim().split('#').pop().split(';').shift().replace(/[^a-z0-9]/gi, '');
                 $.ajax('https://icloud-album-downloader.herokuapp.com/api/' + albumId).done(function (data) {
