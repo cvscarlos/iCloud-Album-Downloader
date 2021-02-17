@@ -22,7 +22,7 @@
 
                 albumId = albumId.trim().split('#').pop().split(';').shift().replace(/[^a-z0-9]/gi, '');
                 $.ajax('https://icloud-album-downloader.herokuapp.com/api/' + albumId).done(function (data) {
-                    for (var i = 0; data.length; i++) {
+                    for (var i = 0; i < data.length; i++) {
                         window.open(data[i].url, '_blank');
                     }
                     button.stop(true).show();
