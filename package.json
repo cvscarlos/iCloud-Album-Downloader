@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caljp13/icloud-album-downloader.git"
+    "url": "git+https://github.com/cvscarlos/icloud-album-downloader.git"
   },
   "author": "Carlos",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/caljp13/icloud-album-downloader/issues"
+    "url": "https://github.com/cvscarlos/icloud-album-downloader/issues"
   },
-  "homepage": "https://caljp13.github.io/icloud-album-downloader"
+  "homepage": "https://cvscarlos.github.io/icloud-album-downloader"
 }
