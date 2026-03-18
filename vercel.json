@@ -1,5 +1,4 @@
 {
-  "rewrites": [
-    { "source": "/api/album", "destination": "/api/album" }
-  ]
+  "framework": null,
+  "outputDirectory": "public"
 }

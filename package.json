@@ -4,7 +4,7 @@
   "description": "A web app to download photos from public shared iCloud albums",
   "license": "MIT",
   "author": "Carlos",
-  "homepage": "https://cvscarlos.github.io/icloud-album-downloader",
+  "homepage": "https://icloud-album-downloader.vercel.app",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cvscarlos/icloud-album-downloader.git"
