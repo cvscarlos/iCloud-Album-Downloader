@@ -2,26 +2,17 @@
   "name": "icloud-album-downloader",
   "version": "1.0.0",
   "description": "A web app to download photos from public shared iCloud albums",
-  "main": "server.js",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "icloud-shared-album": "^0.0.8"
-  },
-  "devDependencies": {
-    "browserify": "^17.0.0"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
+  "license": "MIT",
+  "author": "Carlos",
+  "homepage": "https://cvscarlos.github.io/icloud-album-downloader",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cvscarlos/icloud-album-downloader.git"
   },
-  "author": "Carlos",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cvscarlos/icloud-album-downloader/issues"
   },
-  "homepage": "https://cvscarlos.github.io/icloud-album-downloader"
+  "dependencies": {
+    "icloud-shared-album": "^1.2.1"
+  }
 }
